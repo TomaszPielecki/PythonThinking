@@ -34,11 +34,17 @@
 # print(droid2)
 
 # multiplication table
-numbers = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
-for a in numbers:
-    for b in numbers:
-        print('%s x %s = %s' % (a, b, a * b))
+# numbers = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+# for a in numbers:
+#     for b in numbers:
+#         print('%s x %s = %s' % (a, b, a * b))
+#
+# # example
+# print("example")
+# print('%s x %s = %s' % (4, 5, 20))
 
-# example
-print("example")
-print('%s x %s = %s' % (4, 5, 20))
+word='napis'
+word1='napis'
+if word==word1:
+    print("to jest %s oraz %s" % (word,word1))
+
